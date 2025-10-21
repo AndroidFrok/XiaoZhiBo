@@ -1,5 +1,6 @@
 package com.tencent.liteav.showlive.model.services.room.http.impl;
 
+import com.blankj.utilcode.BuildConfig;
 import com.tencent.liteav.debug.GenerateTestUserSig;
 import com.tencent.liteav.login.model.ProfileManager;
 import com.tencent.liteav.showlive.model.services.room.bean.RoomInfo;
@@ -8,7 +9,7 @@ import com.tencent.liteav.showlive.model.services.room.callback.ActionCallback;
 import com.tencent.liteav.showlive.model.services.room.callback.RoomDetailCallback;
 import com.tencent.liteav.showlive.model.services.room.callback.RoomInfoCallback;
 import com.tencent.liteav.showlive.model.services.room.http.IHttpRoomManager;
-import com.tencent.liteav.showlive.BuildConfig;
+//import com.tencent.liteav.showlive.BuildConfig;
 import com.tencent.qcloud.tuicore.TUILogin;
 
 import java.util.ArrayList;

@@ -1,11 +1,9 @@
 apply plugin: 'com.android.library'
-
+apply from: '../common.gradle'
 android {
-    compileSdkVersion 28
-
+    namespace "com.tencent.liteav.trtc.basic"
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 26
+
     }
 
     buildTypes {

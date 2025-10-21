@@ -55,7 +55,7 @@ public class TUIBeautyView extends BottomSheetDialog {
         mBeautyManager = beautyManager;
         Window window = getWindow();
         if (window != null) {
-            window.findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
+//            window.findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
         }
         initPresenter();
         initView();

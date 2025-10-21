@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
-
+apply from: '../common.gradle'
 android {
+    namespace "com.tencent.qcloud.tuikit.tuipusher"
     compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    // buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 26
+
     }
 
     buildTypes {
@@ -31,5 +31,5 @@ dependencies {
     
     def projects = this.rootProject.getAllprojects().stream().map { project -> project.name }.collect()
     api projects.contains("tuicore") ? project(':tuicore') : "com.tencent.liteav.tuikit:tuicore:latest.release"
-    api rootProject.getProperties().containsKey("liteavSdk") ? rootProject.ext.liteavSdk : "com.tencent.liteav:LiteAVSDK_Live:latest.release"
+    api rootProject.getProperties().containsKey("liteavSdk") ? rootProject.ext.liteavSdk : "com.tencent.liteav:LiteAVSDK_Live:$rootProject.ext.liteavVersion"
 }

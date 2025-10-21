@@ -2,25 +2,26 @@
 
 buildscript {
     ext.kotlin_version = '1.5.31'
+    apply from: 'maven.gradle'
     repositories {
-        google()
+        addCommonMaven(repositories)
+//        google()
         mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.1'
-
-
-
+//        classpath 'com.android.tools.build:gradle:8.4.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 allprojects {
     repositories {
+        addCommonMaven(repositories)
         flatDir {
             dirs project(':app').file('libs')
         }
-        google()
+//        google()
         mavenCentral()
     }
 }
@@ -30,6 +31,8 @@ task clean(type: Delete) {
 }
 
 ext {
-    liteavSdk="com.tencent.liteav:LiteAVSDK_Live:latest.release"
+    liteavVersion = "latest.release" //latest.release
+    liteavSdk = "com.tencent.liteav:LiteAVSDK_Live:$liteavVersion"
+    //https://mvnrepository.com/artifact/com.tencent.liteav/LiteAVSDK_Live
     imSdk = "com.tencent.imsdk:imsdk-plus:7.1.3925"
 }

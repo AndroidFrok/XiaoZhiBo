@@ -22,7 +22,7 @@ import java.lang.reflect.Method;
  * </p>
  */
 public class DemoApplication extends MultiDexApplication {
-    private static String          TAG = "DemoApplication";
+    private static String TAG = "DemoApplication";
     private static DemoApplication instance;
 
     private IFloatWindowCallback mCallback;

@@ -43,7 +43,7 @@ public class AudienceListAdapter extends RecyclerView.Adapter<AudienceListAdapte
         } else if (position == 2) {
             holder.mTextRanking.setTextColor(mContext.getResources().getColor(R.color.showlive_ranking_text_third));
         } else {
-            holder.mTextRanking.setTextColor(mContext.getResources().getColor(R.color.black));
+            holder.mTextRanking.setTextColor(mContext.getResources().getColor(com.tencent.liteav.login.R.color.login_color_black));
         }
         AudienceInfo info = mAudienceInfoList.get(position);
         holder.mTextRanking.setText(String.valueOf(position + 1));

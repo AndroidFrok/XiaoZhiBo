@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
-
+apply from: '../common.gradle'
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    namespace "com.tencent.qcloud.tuikit.tuigift"
+ 
+    // buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 26
+
     }
 
     buildTypes {
