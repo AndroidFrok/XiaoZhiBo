@@ -18,10 +18,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.tencent.liteav.basic.UserModelManager;
-import com.tencent.liteav.demo.R;
 import com.tencent.liteav.demo.common.utils.IntentUtils;
 import com.tencent.liteav.login.ui.LoginActivity;
 import com.tencent.liteav.login.ui.LoginWithoutServerActivity;
+import com.tencent.qcloud.xiaozhibo.R;
 
 public class NavigationActivity extends AppCompatActivity {
     private static final String TAG = "NavigationActivity";

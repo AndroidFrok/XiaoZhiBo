@@ -20,7 +20,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.tencent.imsdk.v2.V2TIMCallback;
 import com.tencent.liteav.basic.UserModelManager;
-import com.tencent.liteav.demo.R;
 import com.tencent.liteav.demo.common.view.ConfirmDialogFragment;
 import com.tencent.liteav.demo.common.view.RoundCornerImageView;
 import com.tencent.liteav.login.model.ProfileManager;
@@ -29,6 +28,7 @@ import com.tencent.liteav.login.ui.LoginWithoutServerActivity;
 import com.tencent.liteav.showlive.ui.ShowLiveEntranceActivity;
 import com.tencent.liteav.showlive.ui.floatwindow.FloatWindow;
 import com.tencent.qcloud.tuicore.TUILogin;
+import com.tencent.qcloud.xiaozhibo.R;
 
 import java.io.File;
 import java.io.FileInputStream;

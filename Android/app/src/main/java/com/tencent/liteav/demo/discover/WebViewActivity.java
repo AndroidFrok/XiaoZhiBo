@@ -14,7 +14,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
+
 
 public class WebViewActivity extends Activity {
 

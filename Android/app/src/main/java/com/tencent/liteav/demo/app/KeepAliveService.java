@@ -12,7 +12,7 @@ import android.os.IBinder;
 import androidx.core.app.NotificationCompat;
 
 import com.blankj.utilcode.util.ServiceUtils;
-import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
 
 public class KeepAliveService extends Service {
     private static final int NOTIFICATION_ID = 1001;

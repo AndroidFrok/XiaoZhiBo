@@ -12,9 +12,9 @@ import androidx.fragment.app.Fragment;
 
 import com.tencent.liteav.basic.ImageLoader;
 import com.tencent.liteav.basic.UserModelManager;
-import com.tencent.liteav.demo.R;
 import com.tencent.liteav.demo.common.view.ShowTipDialogFragment;
 import com.tencent.liteav.login.ui.view.ModifyUserAvatarDialog;
+import com.tencent.qcloud.xiaozhibo.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 

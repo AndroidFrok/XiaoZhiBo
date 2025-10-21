@@ -9,7 +9,7 @@ import android.view.View;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
-import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
 
 
 public class RoundCornerImageView extends AppCompatImageView {

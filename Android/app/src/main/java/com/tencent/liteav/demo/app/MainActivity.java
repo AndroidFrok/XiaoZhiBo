@@ -18,11 +18,11 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.tencent.liteav.demo.R;
 import com.tencent.liteav.demo.aboutme.UserInfoFragment;
 import com.tencent.liteav.demo.common.view.ConfirmDialogFragment;
 import com.tencent.liteav.demo.discover.DiscoverFragment;
 import com.tencent.liteav.showlive.ui.floatwindow.FloatWindow;
+import com.tencent.qcloud.xiaozhibo.R;
 import com.tencent.rtmp.TXLiveBase;
 
 import java.util.ArrayList;

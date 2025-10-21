@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
+
 
 public class ShowTipDialogFragment extends DialogFragment {
 

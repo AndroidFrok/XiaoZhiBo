@@ -16,7 +16,8 @@ import android.widget.ImageView;
 
 import androidx.fragment.app.Fragment;
 
-import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
+
 
 public class DiscoverFragment extends Fragment {
     private static final String TAG     = "WebFindFragment";

@@ -10,8 +10,8 @@ import com.blankj.utilcode.util.ToastUtils;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.tencent.liteav.basic.UserModel;
 import com.tencent.liteav.basic.UserModelManager;
-import com.tencent.liteav.demo.R;
 import com.tencent.liteav.login.model.ProfileManager;
+import com.tencent.qcloud.xiaozhibo.R;
 
 public class ModifyUserNameDialog extends BottomSheetDialog {
     private EditText              mEditUserName;

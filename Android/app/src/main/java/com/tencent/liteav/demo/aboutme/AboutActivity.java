@@ -14,7 +14,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.tencent.liteav.demo.R;
+//import com.tencent.liteav.demo.R;
+import com.tencent.qcloud.xiaozhibo.R;
 import com.tencent.rtmp.TXLiveBase;
 
 public class AboutActivity extends AppCompatActivity {
