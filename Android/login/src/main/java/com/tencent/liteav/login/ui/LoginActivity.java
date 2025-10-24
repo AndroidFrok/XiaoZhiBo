@@ -180,6 +180,9 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void login() {
+        handleLoginStatus(STATUS_LOGIN_SUCCESS);
+        startMainActivity();
+        finish();
         final String username = mEditUserName.getText().toString().trim();
         String password = mEditPassword.getText().toString().trim();
         if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {

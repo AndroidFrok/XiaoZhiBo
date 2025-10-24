@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:allowBackup,android:icon,android:theme,android:label,android:supportsRtl,android:roundIcon">
-
+        <activity android:name="com.tencent.liteav.demo.aboutme.AboutActivity" />
 
         <activity
             android:name="com.tencent.liteav.demo.app.NavigationActivity"

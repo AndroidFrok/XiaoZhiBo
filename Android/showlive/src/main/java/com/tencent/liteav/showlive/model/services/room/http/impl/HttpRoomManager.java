@@ -337,6 +337,9 @@ public class HttpRoomManager implements IHttpRoomManager {
 
     /**
      * ==== 网络层相关 ====
+     *
+     * 小直播目前已经下架了，建议您用 TUILivekit
+     * https://cloud.tencent.com/document/product/647/105438
      */
     private interface Api {
         @POST("base/v1/rooms/enter_room")

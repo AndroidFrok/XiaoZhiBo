@@ -104,7 +104,7 @@ public class GenerateTestUserSig {
      * License Management View (https://console.cloud.tencent.com/live/license)
      * License URL of your application
      */
-    public static final String LICENSEURL = "请替换成您的licenseURL";
+    public static final String LICENSEURL = "https://1383708708.trtcube-license.cn/license/v2/1383708708_1/v_cube.license";
 
     /**
      * 腾讯云直播license管理页面(https://console.cloud.tencent.com/live/license)
@@ -113,21 +113,22 @@ public class GenerateTestUserSig {
      * License Management View (https://console.cloud.tencent.com/live/license)
      * License key of your application
      */
-    public static final String LICENSEURLKEY = "请替换成您的licenseKey";
+    public static final String LICENSEURLKEY = "1c841f164456877e8e5548ba822461c1";
 
     /**
      * 配置的后台服务域名，类似：https://service-3vscss6c-xxxxxxxxxxx.gz.apigw.tencentcs.com"
      * <p>
      * 小直播后台提供有登录、房间列表等服务，更多细节见文档：https://cloud.tencent.com/document/product/454/38625
      */
-    public static final String SERVERLESSURL = "http://baidu.com";
+    public static final String SERVERLESSURL = "http://wfszzb.test.jhwangluo.com.txlivecdn.com";
 
     /**
      * 配置的播放域名
+     * wfszzb2.test.jhwangluo.com
      * <p>
      * 腾讯云域名管理页面：https://console.cloud.tencent.com/live/domainmanage
      */
-    public static final String PLAY_DOMAIN = "PLACEHOLDER";
+    public static final String PLAY_DOMAIN = "wfszzb2.test.jhwangluo.com";
 
     /**
      * Calculating UserSig

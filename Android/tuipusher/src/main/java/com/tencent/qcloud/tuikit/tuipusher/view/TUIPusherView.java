@@ -48,18 +48,18 @@ import com.tencent.qcloud.tuikit.tuipusher.view.videoview.TUIVideoView;
 public class TUIPusherView extends FrameLayout implements ITUIPusherView {
     private static final String TAG = "TUIPusherView";
 
-    private TUIPusherPresenter    mTUIPusherPresenter;
-    private View                  mViewRoot;
-    private TUIVideoView          mTUIVideoView;
-    private CountDownView         mCountDownView;
-    private StartPushView         mStartPushView;
-    private ContainerView         mContainerView;
-    private String                mPushUrl;
+    private TUIPusherPresenter mTUIPusherPresenter;
+    private View mViewRoot;
+    private TUIVideoView mTUIVideoView;
+    private CountDownView mCountDownView;
+    private StartPushView mStartPushView;
+    private ContainerView mContainerView;
+    private String mPushUrl;
     private TUIPusherViewListener mListener;
-    private boolean               mIsFrontCamera = true;
+    private boolean mIsFrontCamera = true;
 
-    private volatile State     mState     = State.PREVIEW;
-    private volatile PKState   mPKState   = PKState.IDLE;
+    private volatile State mState = State.PREVIEW;
+    private volatile PKState mPKState = PKState.IDLE;
     private volatile LinkState mLinkState = LinkState.IDLE;
 
     public TUIPusherView(Context context) {
@@ -199,6 +199,10 @@ public class TUIPusherView extends FrameLayout implements ITUIPusherView {
     @Override
     protected void onVisibilityChanged(View changedView, int visibility) {
         super.onVisibilityChanged(changedView, visibility);
+        if (mTUIPusherPresenter == null) {
+            ToastUtil.toastShortMessage("TUIPusherView is not initialized");
+            return;
+        }
         if (visibility == VISIBLE) {
             mTUIPusherPresenter.stopVirtualCamera();
         } else if (visibility == INVISIBLE) {

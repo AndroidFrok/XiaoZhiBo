@@ -9,3 +9,4 @@ build/
 .cxx
 *.codecc/
 /build.yml
+debug/src/main/java/com/tencent/liteav/debug/GenerateTestUserSig.java
